@@ -1,8 +1,24 @@
 # Express API template
 
+[![Build Status](https://travis-ci.com/amezyane/express-api-template.svg?branch=master)](https://travis-ci.com/amezyane/express-api-template)
+[![Coverage Status](https://coveralls.io/repos/github/amezyane/express-api-template/badge.svg?branch=master)](https://coveralls.io/github/amezyane/express-api-template?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/002953e899b88f88c10d/maintainability)](https://codeclimate.com/github/amezyane/express-api-template/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/002953e899b88f88c10d/test_coverage)](https://codeclimate.com/github/amezyane/express-api-template/test_coverage)
+[![Build status](https://ci.appveyor.com/api/projects/status/9gtromynmdfju6l9?svg=true)](https://ci.appveyor.com/project/amezyane/express-api-template)
+
 From the turorial: [How To Set Up An Express API Backend Project With PostgreSQL](https://www.smashingmagazine.com/2020/04/express-api-backend-project-postgresql/)
 
-## Main commands 
+## How to run the app
+
+1. Clone the repo.
+1. To install the dependencies, run the command `yarn` if Yarn is installed on your computer, or, `npm i`, at the root of the project.
+1. Open a terminal in the project root and run `yarn startdev`.
+
+## How to test
+
+Run `yarn test`.
+
+## Commands 
 
 `yarn prestart`: Build the content of the src folder
 
