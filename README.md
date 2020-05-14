@@ -1,5 +1,7 @@
 # Express API template
 
+See application on Heroku: https://express-ame.herokuapp.com/v1/
+
 [![Build Status](https://travis-ci.com/amezyane/express-api-template.svg?branch=master)](https://travis-ci.com/amezyane/express-api-template)
 [![Coverage Status](https://coveralls.io/repos/github/amezyane/express-api-template/badge.svg?branch=master)](https://coveralls.io/github/amezyane/express-api-template?branch=master)
 [![Maintainability](https://api.codeclimate.com/v1/badges/002953e899b88f88c10d/maintainability)](https://codeclimate.com/github/amezyane/express-api-template/maintainability)
@@ -20,15 +22,15 @@ Run `yarn test`.
 
 ## Commands 
 
-`yarn prestart`: Build the content of the src folder
+`yarn prestart`: Build the content of the src folder.
 
-`yarn start`: Start server from the build folder
+`yarn start`: Start server from the build folder.
 
-`yarn startdev `: Start server in development mode
+`yarn startdev `: Start server in development mode.
 
-`yarn lint`: Shows linting issues found in JS files (see config in the file `.eslintrc.json`)
+`yarn lint`: Shows linting issues found in JS files (see config in the file `.eslintrc.json`).
 
-`yarn pretty`: Prettifies our code
+`yarn pretty`: Prettifies our code.
 
 `yarn postpretty`: Runs the `lint` command with the `--fix` flag appended. This flag tells ESLint to automatically fix common linting issues.
 
@@ -40,7 +42,7 @@ See `package.json` for the detailed command lines.
 
 `@babel/cli`: A required install for using `babel`. It allows the use of Babel from the terminal and is available as ./node_modules/.bin/babel.
 
-`@babel/core`: Core Babel functionality
+`@babel/core`: Core Babel functionality.
 
 `@babel/node`: This works exactly like the Node.js CLI, with the added benefit of compiling with `babel` presets and plugins. This is required for use with nodemon.
 
@@ -54,30 +56,30 @@ See `package.json` for the detailed command lines.
 
 ### Linting
 
-`eslint`: TO DO
+`eslint`: Check that the code respects syntax rules (defined in the config file `.eslintrc.json`) and reports errors in the console.
 
-`eslint-config-airbnb-base`: TO DO
+`eslint-config-airbnb-base`: Adds the style rules used by Airbnb.
 
-`eslint-plugin-import`: TO DO
+`eslint-plugin-import`: Supports linting of ES2015+ (ES6+) import/export syntax, and prevent issues with misspelling of file paths and import names." (Required to use the plugin `eslint-config-airbnb-base`.)
 
-`prettier`: TO DO
+`prettier`: Apply formatting rules to the code (these are defined in the config file `.prettierrc` ).
 
 ### Testing
 
-`mocha`: test runner
+`mocha`: Test runner.
 
-`chai`: used to make assertions
+`chai`: Used to make assertions.
 
-`nyc`: collect test coverage report
+`nyc`: Collect test coverage report.
 
-`sinon-chai`: extends chai’s assertions
+`sinon-chai`: Extends chai’s assertions.
 
-`supertest`: used to make HTTP calls to our API endpoints
+`supertest`: Used to make HTTP calls to our API endpoints.
 
-`coveralls`: for uploading test coverage to coveralls.io
+`coveralls`: For uploading test coverage to coveralls.io.
 
 ### Others 
 
-`nodemon`: monitors our project source code and automatically restarts our server whenever it observes any changes.
+`nodemon`: Monitors our project source code and automatically restarts our server whenever it observes any changes.
 
-`dotenv`: reads an .env file and gives access to the environment variables defined inside.
+`dotenv`: Reads an .env file and gives access to the environment variables defined inside.
